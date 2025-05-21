@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Multiplicar</title>
+    <link rel="stylesheet" href="Public/CSS/multiplicar.css">
+</head>
+<body>
+    <header>
+        <h1>Estructuras de Control en JavaScript</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Clasificación de Edades</a></li>
+                <li><a href="tablamultiplicar.html">Tabla de Multiplicar</a></li>
+                <li><a href="paresoimpares.html">Tablas Pares o Impares</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenedor_multiplicar">
+    <label class="label_multiplicar" for="numero">Escribe un número:</label>
+    <input type="number" id="numero">
+    <button class="button_multiplicar" onclick="generarTabla()">Clic para ver su tabla de multiplicar</button>
+    <div id="resultado_tabla"></div>
+    </div>
+
+    <script src="Public/JavaScript/tablaMultiplicar.js"></script>
+</body>
+</html>

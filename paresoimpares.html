@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pares o Impares</title>
+    <link rel="stylesheet" href="Public/CSS/paresimpares.css">
+</head>
+<body>
+    <header>
+        <h1>Estructuras de Control en JavaScript</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Clasificación de Edades</a></li>
+                <li><a href="tablamultiplicar.html">Tabla de Multiplicar</a></li>
+                <li><a href="paresoimpares.html">Tablas Pares o Impares</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenedor_parimp">
+    <label class="label_pares" for="tipo">Selecciona para ver la tabla de multiplicar:</label>
+    <select id="tipo">
+        <option value="pares">Valores Pares</option>
+        <option value="impares">Valores Impares</option>
+    </select>
+    <button class="button_pares" onclick="mostrarTablas()">Clic para ver</button>
+    <div id="resultado_tablas"></div>
+</div>
+
+    <script src="Public/JavaScript/tablasSeleccionadas.js"></script>
+</body>
+</html>
